@@ -4,6 +4,13 @@
 .navbar > li {
   margin: 0 10px;
   list-style: none;
+  color: rgb(25, 98, 149);
+}
+.navbar > li:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+  transition-property: all 0.5s ease-in-out;
 }
 .Header {
   display: flex;
@@ -12,4 +19,91 @@
 .main {
   display: flex;
   justify-content: space-evenly;
+}
+.main-left {
+}
+.main-left-text {
+  color: rgb(25, 98, 149);
+  font-size: 80px;
+}
+.main-left-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.main-left-see-all {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main-left-text-span {
+  color: rgb(230, 164, 59);
+}
+.main-left-btn {
+  color: #fff;
+  align-content: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-weight: bolder;
+  background-color: rgb(230, 164, 59);
+}
+.main-left-btn:hover,
+.main-left-btn:active {
+  background-color: rgb(25, 98, 149);
+  transition: all 1s;
+  cursor: pointer;
+}
+.main-right-img {
+  max-width: 100%;
+  min-width: 10%;
+  background-color: rgb(230, 164, 59);
+  border-radius: 50%;
+}
+.homeimg {
+  display: flex;
+  justify-content: center;
+  width: 20em;
+}
+.main-right-img:hover {
+  border-radius: 50%;
+  transition: all 1s;
+  transform: scale(1.1);
+  background-color: rgb(230, 164, 59);
+}
+.main-left-text-p {
+  font-family: poppins, sans-serif;
+  font-size: 200%;
+}
+.car-brands {
+  display: flex;
+  border-radius: 2px;
+  flex-direction: column;
+  overflow: hidden;
+  height: 19vh;
+  background-color: rgb(191, 197, 205);
+}
+
+@media screen and (max-width: 600px) {
+  .main-left-text {
+    font-size: 50px;
+  }
+  .main-left {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .main {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-right-img,
+  .homeimg {
+    width: 50%;
+    border-radius: 0;
+  }
 }

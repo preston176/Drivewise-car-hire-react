@@ -1,5 +1,5 @@
 import React from 'react'
-import imgright from '../assets/imgright.png'
+import imgright from '/imgright.png'
 
 function Main() {
   return (

@@ -139,6 +139,7 @@
   flex-wrap: wrap;
   background-color: none;
   width: 100%;
+  margin-bottom: 20px;
 }
 .cars {
   background-color: rgb(25, 98, 149);

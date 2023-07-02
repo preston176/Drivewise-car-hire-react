@@ -6,6 +6,7 @@ import Sponsors from './components/Sponsors'
 import Testimony from './components/Testimony'
 import BestDeals from './components/BestDeals';
 import NextCar from './components/NextCar';
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
      <Testimony />
      <BestDeals />
     <NextCar />
+    <Footer />
     </>
   )
 }

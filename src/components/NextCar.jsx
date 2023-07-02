@@ -48,6 +48,7 @@ function nextCar() {
           <div className="btn-book-now-2"><button>Book Now</button></div>
         </div>
       </div>
+      SITE UNDER CONSTRUCTION 👷
      </div>
   )
 }

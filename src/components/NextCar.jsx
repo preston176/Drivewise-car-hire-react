@@ -9,7 +9,7 @@ function nextCar() {
       <div className="cars-container">
         <div className="cars-next">
           <div className="cars-img">
-            <img src="../public/home.png" alt="" />
+            <img src="/home.png" alt="" />
           </div>
           <div className="cars-price">From </div>
           <div className="btn-book-now-2"><button>Book Now</button></div>
@@ -17,7 +17,7 @@ function nextCar() {
 
         <div className="cars-next">
           <div className="cars-img">
-            <img src="../public/home.png" alt="" />
+            <img src="/home.png" alt="" />
           </div>
           <div className="cars-price">From </div>
           <div className="btn-book-now-2"><button>Book Now</button></div>
@@ -26,7 +26,7 @@ function nextCar() {
 
         <div className="cars-next">
           <div className="cars-img">
-            <img src="../public/home.png" alt="" />
+            <img src="/home.png" alt="" />
           </div>
           <div className="cars-price">From </div>
           <div className="btn-book-now-2"><button>Book Now</button></div>
@@ -34,7 +34,7 @@ function nextCar() {
 
         <div className="cars-next">
           <div className="cars-img">
-            <img src="../public/home.png" alt="" />
+            <img src="/home.png" alt="" />
           </div>
           <div className="cars-price">From </div>
           <div className="btn-book-now-2"><button>Book Now</button></div>
@@ -42,7 +42,7 @@ function nextCar() {
 
         <div className="cars-next">
           <div className="cars-img">
-            <img src="../public/home.png" alt="" />
+            <img src="/home.png" alt="" />
           </div>
           <div className="cars-price">From </div>
           <div className="btn-book-now-2"><button>Book Now</button></div>

@@ -4,7 +4,7 @@ function Sponsors() {
   return (
     <div className="sponsors">
       <div className="car-brands">
-        <img src="../public/cars.png" alt="" />
+        <img src="/cars.png" alt="" />
       </div>
      </div>
   )

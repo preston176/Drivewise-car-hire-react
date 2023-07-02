@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import brandlogo from './assets/brandlogo.png'
+import imgright from './assets/imgright.png'
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
      <div className="Header">
-        <img src={reactLogo} className="Header-logo" alt="logo" />
+        <img src={brandlogo} className="Header-logo" alt="logo" style={{width:'50px', height: '30px'}} />
         <nav className='navbar'>
         <li>Homepage</li>
         <li>Reservation</li>
@@ -29,7 +29,7 @@ function App() {
       </div>
       <div className="main-right">
       <div className="main-right-img">
-        <img className='homeimg' src="../public/home.png" alt="" />
+        <img className='homeimg' src={imgright} alt="" />
         </div>
      </div>
      </div>

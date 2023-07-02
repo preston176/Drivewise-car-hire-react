@@ -1,10 +1,13 @@
 .navbar {
   display: flex;
+  border-bottom: 1px solid #857f7f;
 }
 .navbar > li {
   margin: 0 10px;
   list-style: none;
   color: rgb(25, 98, 149);
+  font-family: poppins, sans-serif;
+  font-weight: bolder;
 }
 .navbar > li:hover {
   color: rgb(0, 0, 0);
@@ -19,6 +22,7 @@
 .main {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 20px 0 20px;
 }
 .main-left {
 }
@@ -58,23 +62,22 @@
 .main-right-img {
   max-width: 100%;
   min-width: 10%;
-  background-color: rgb(230, 164, 59);
-  border-radius: 50%;
+  max-height: fit-content;
+  min-height: fit-content;
+  border-radius: 20px;
 }
 .homeimg {
   display: flex;
   justify-content: center;
-  width: 20em;
 }
-.main-right-img:hover {
-  border-radius: 50%;
+/* .main-right-img:hover {
   transition: all 1s;
   transform: scale(1.1);
-  background-color: rgb(230, 164, 59);
-}
+} */
 .main-left-text-p {
   font-family: poppins, sans-serif;
   font-size: 200%;
+  color: #857f7f;
 }
 .car-brands {
   display: flex;

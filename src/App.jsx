@@ -9,7 +9,6 @@ import NextCar from './components/NextCar';
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
      <Header />

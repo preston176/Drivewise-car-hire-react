@@ -9,13 +9,13 @@ function App() {
   return (
     <>
      <div className="Header">
-        <img src={brandlogo} className="Header-logo" alt="logo" style={{width:'50px', height: '30px'}} />
+        <img src={brandlogo} className="Header-logo" alt="logo" style={{width:'45px', height: '30px'}} />
         <nav className='navbar'>
-        <li>Homepage</li>
-        <li>Reservation</li>
-        <li>Locations</li>
-        <li>Fleet</li>
-        <li>Special Offers</li>
+        <a href="#"><li>Homepage</li></a>
+        <a href="#"><li>Reservation</li></a>
+        <a href="#"><li>Locations</li></a>
+        <a href="#"><li>Fleet</li></a>
+        <a href="#"><li>Special Offers</li></a>
         </nav>
      </div>
      <div className="main">

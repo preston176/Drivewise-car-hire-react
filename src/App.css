@@ -1,16 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .navbar {
   display: flex;
   border-bottom: 1px solid #857f7f;
 }
+.btn-book-now > button {
+  background-color: rgb(230, 164, 59);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-weight: bolder;
+  width: 50%;
+  height: 50px;
+}
 
-.navbar > li {
+.navbar a {
   margin: 0 10px;
   list-style: none;
   color: rgb(25, 98, 149);
-  font-family: poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bolder;
+  text-decoration: none;
 }
-.navbar > li:hover {
+.navbar a:hover {
   color: rgb(0, 0, 0);
   text-decoration: underline;
   cursor: pointer;
@@ -28,7 +41,7 @@
 .main-left-text {
   color: rgb(25, 98, 149);
   font-size: 80px;
-  font-family: poppins, sans-serif, Helvetica;
+  font-family: "Poppins", sans-serif;
 }
 .main-left-section {
   display: flex;
@@ -78,7 +91,7 @@
   border-radius: 0 20px 20px 0;
 }
 .main-left-text-p {
-  font-family: poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 200%;
   color: #857f7f;
 }
@@ -90,11 +103,18 @@
   height: 19vh;
   background-color: rgb(191, 197, 205);
 }
+.best-deals-h1 {
+  position: relative;
+  left: 25%;
+  width: fit-content;
+  color: rgb(25, 98, 149);
+  font-family: "Poppins", sans-serif;
+}
 .card-heading,
 .card-text {
   color: #fff;
   margin: auto;
-  font-family: poppins, sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .card-heading {
@@ -110,10 +130,19 @@
   width: 100%;
 }
 .cars {
-  background-color: #857f7f;
+  background-color: rgb(25, 98, 149);
   margin: 10px 20px 0 0;
   width: 200px;
   text-align: center;
+  border-radius: 12px;
+  color: #fff;
+}
+.cars:hover,
+.cars:active,
+.cars:focus {
+  background-color: #282727;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
 }
 
 .cars-img > img {
@@ -174,6 +203,12 @@
 @media screen and (max-width: 400px) {
   .main-right-img,
   .homeimg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Header-logo {
     display: none;
   }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import BestCarDeals from './BestCarDeals'
 import data from "./data"
 
+
 function bestDeals() {
   const cards = data.map(item => {
     return (

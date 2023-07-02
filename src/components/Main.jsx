@@ -9,7 +9,7 @@ function Main() {
         <p className='main-left-text-p'>Whether you're planning a road trip, need a reliable vehicle for a business trip, or just want the convenience of having a car at your disposal, we've got you covered</p>
         <div className="main-left-section">
         <button className='main-left-btn'>Book Now</button>
-        <a className='main-left-see-all'>See all cars&#8594;</a>
+        <a className='main-left-see-all' href='#best-deals'>See all cars&#8594;</a>
         </div>
       </div>
       <div className="main-right">

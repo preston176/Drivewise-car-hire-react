@@ -13,7 +13,7 @@ function bestDeals() {
     )
   })
   return (
-    <div className="best-deals">
+    <div className="best-deals" id='best-deals'>
      <div className="best-deals-h1">
      <h1>Best deals out there</h1>
      </div>

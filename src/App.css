@@ -2,7 +2,6 @@
 
 .navbar {
   display: flex;
-  border-bottom: 1px solid #857f7f;
 }
 .btn-book-now > button {
   background-color: rgb(230, 164, 59);
@@ -51,7 +50,7 @@
 }
 .main-left-text {
   color: rgb(25, 98, 149);
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Poppins", sans-serif;
 }
 .main-left-section {
@@ -103,7 +102,7 @@
 }
 .main-left-text-p {
   font-family: "Poppins", sans-serif;
-  font-size: 200%;
+  font-size: 150%;
   color: #857f7f;
 }
 .car-brands {
@@ -215,7 +214,10 @@
 }
 @media screen and (max-width: 600px) {
   .main-left-text {
-    font-size: 45px;
+    font-size: 32px;
+  }
+  .main-left-text-p {
+    font-size: 16px;
   }
   .main-left {
     flex-wrap: wrap;

@@ -38,8 +38,38 @@ function App() {
         <img src="../public/cars.png" alt="" />
       </div>
      </div>
-     <div className="testimony"></div>
+     <div className="testimony">
+      <div className="testimony-text-cards">
+        <div className="testimony-text-card">
+          <p className='card-heading'>450 +</p>
+          <div className="card-text">
+          <p>Cars</p>
+          </div>
+        </div>
+        <div className="testimony-text-card">
+          <p className='card-heading'>90 +</p>
+          <div className="card-text">
+          <p>Sales Experts</p>
+          </div>
+        </div>
+        <div className="testimony-text-card">
+          <p className='card-heading'>120 +</p>
+          <div className="card-text">
+          <p>Pickup Locations</p>
+          </div>
+        </div>
+        <div className="testimony-text-card">
+          <p className='card-heading'>4650 +</p>
+          <div className="card-text">
+          <p>Happy customers</p>
+          </div>
+        </div>
+      </div>
+     </div>
      <div className="best-deals">
+     <div className="best-deals-h1">
+     <h1>Best deals out there</h1>
+     </div>
       <div className="car-image-container"></div>
      </div>
     </>

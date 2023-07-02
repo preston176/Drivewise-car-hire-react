@@ -2,6 +2,7 @@
   display: flex;
   border-bottom: 1px solid #857f7f;
 }
+
 .navbar > li {
   margin: 0 10px;
   list-style: none;
@@ -27,7 +28,7 @@
 .main-left-text {
   color: rgb(25, 98, 149);
   font-size: 80px;
-  font-family: poppins, sans-serif;
+  font-family: poppins, sans-serif, Helvetica;
 }
 .main-left-section {
   display: flex;
@@ -67,10 +68,15 @@
 .homeimg {
   width: 100%;
 }
-/* .main-right-img:hover {
-  transition: all 1s;
-  transform: scale(1.1);
-} */
+.testimony {
+  margin-top: 10px;
+  background-color: rgb(230, 164, 59);
+  width: fit-content;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 20px 20px 0;
+}
 .main-left-text-p {
   font-family: poppins, sans-serif;
   font-size: 200%;
@@ -83,6 +89,25 @@
   overflow: hidden;
   height: 19vh;
   background-color: rgb(191, 197, 205);
+}
+.card-heading,
+.card-text {
+  color: #fff;
+  margin: auto;
+  font-family: poppins, sans-serif;
+}
+
+.card-heading {
+  font-weight: bolder;
+}
+.testimony-text-card {
+  margin: 10px 20px 0 20px;
+}
+
+.testimony-text-cards {
+  display: flex;
+  flex-direction: row;
+  margin: 2 20px 0 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -99,6 +124,14 @@
 @media screen and (max-width: 1280px) {
   .homeimg {
     width: 100%;
+  }
+  .car-brands {
+    display: flex;
+    border-radius: 2px;
+    flex-direction: column;
+    overflow: hidden;
+    height: 11vh;
+    background-color: rgb(191, 197, 205);
   }
 }
 @media screen and (max-width: 600px) {

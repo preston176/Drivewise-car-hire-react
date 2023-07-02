@@ -27,6 +27,7 @@
 .main-left-text {
   color: rgb(25, 98, 149);
   font-size: 80px;
+  font-family: poppins, sans-serif;
 }
 .main-left-section {
   display: flex;
